@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#132a45"/></linearGradient>
+ <linearGradient id="card" x2="0" y2="1"><stop stop-color="#17334e"/><stop offset="1" stop-color="#10243a"/></linearGradient>
+ <linearGradient id="accent"><stop stop-color="#48d8d0"/><stop offset="1" stop-color="#739dff"/></linearGradient>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#66cfd0"/></marker>
+</defs>
+<rect width="1600" height="1120" fill="url(#bg)"/>
+<text x="70" y="70" fill="#f4f8ff" font-family="Arial" font-size="36" font-weight="700">FIRELINE SI — System Architecture</text>
+<text x="70" y="108" fill="#9db4ca" font-family="Arial" font-size="18">Local dashboard architecture and optional hosted AppDeploy services</text>
+<!-- sources -->
+<rect x="70" y="165" width="330" height="155" rx="18" fill="url(#card)" stroke="#3a5877"/>
+<text x="100" y="205" fill="#59d9d1" font-family="Arial" font-size="17" font-weight="700">DATA / RESEARCH SOURCES</text>
+<text x="100" y="245" fill="#eaf2fb" font-family="Arial" font-size="18">Supplied master CSV</text>
+<text x="100" y="275" fill="#b2c4d7" font-family="Arial" font-size="15">NASA PSI repository &amp; metadata</text>
+<text x="100" y="300" fill="#b2c4d7" font-family="Arial" font-size="15">NASA media and references</text>
+<!-- prep -->
+<rect x="490" y="165" width="330" height="155" rx="18" fill="url(#card)" stroke="#3a5877"/>
+<text x="520" y="205" fill="#59d9d1" font-family="Arial" font-size="17" font-weight="700">DATA PREPARATION</text>
+<text x="520" y="245" fill="#eaf2fb" font-family="Arial" font-size="18">Aggregated data snapshot</text>
+<text x="520" y="275" fill="#b2c4d7" font-family="Arial" font-size="15">src/data.ts</text>
+<text x="520" y="300" fill="#b2c4d7" font-family="Arial" font-size="15">Counts, profiles, quality flags</text>
+<!-- UI -->
+<rect x="910" y="165" width="600" height="155" rx="18" fill="url(#card)" stroke="#3a5877"/>
+<text x="940" y="205" fill="#59d9d1" font-family="Arial" font-size="17" font-weight="700">FRONTEND APPLICATION</text>
+<text x="940" y="245" fill="#eaf2fb" font-family="Arial" font-size="18">React 19 + TypeScript + Vite</text>
+<text x="940" y="275" fill="#b2c4d7" font-family="Arial" font-size="15">src/App.tsx · src/main.tsx · src/index.css</text>
+<text x="940" y="300" fill="#b2c4d7" font-family="Arial" font-size="15">Navigation · filters · charts · export · responsive UI</text>
+<path d="M400 242 H480" stroke="#66cfd0" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M820 242 H900" stroke="#66cfd0" stroke-width="4" marker-end="url(#arrow)"/>
+<!-- views -->
+<text x="70" y="395" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">DASHBOARD VIEWS</text>
+{''.join([])}
+<rect x="70" y="430" width="340" height="112" rx="16" fill="url(#card)" stroke="#34536f"/>
+<text x="92" y="472" fill="#f2f7ff" font-family="Arial" font-size="18" font-weight="700">Mission Overview</text>
+<text x="92" y="505" fill="#a9bed2" font-family="Arial" font-size="14">Dataset snapshot and coverage</text><path d="M1210 320 V365 H240 V420" stroke="#547b9d" stroke-width="2" fill="none" opacity=".75"/><rect x="450" y="430" width="340" height="112" rx="16" fill="url(#card)" stroke="#34536f"/>
+<text x="472" y="472" fill="#f2f7ff" font-family="Arial" font-size="18" font-weight="700">Investigation Explorer</text>
+<text x="472" y="505" fill="#a9bed2" font-family="Arial" font-size="14">Search, filters, profiles, CSV export</text><path d="M1210 320 V365 H620 V420" stroke="#547b9d" stroke-width="2" fill="none" opacity=".75"/><rect x="830" y="430" width="340" height="112" rx="16" fill="url(#card)" stroke="#34536f"/>
+<text x="852" y="472" fill="#f2f7ff" font-family="Arial" font-size="18" font-weight="700">Risk Intelligence</text>
+<text x="852" y="505" fill="#a9bed2" font-family="Arial" font-size="14">Supplied index summaries and bands</text><path d="M1210 320 V365 H1000 V420" stroke="#547b9d" stroke-width="2" fill="none" opacity=".75"/><rect x="1210" y="430" width="340" height="112" rx="16" fill="url(#card)" stroke="#34536f"/>
+<text x="1232" y="472" fill="#f2f7ff" font-family="Arial" font-size="18" font-weight="700">Data Quality</text>
+<text x="1232" y="505" fill="#a9bed2" font-family="Arial" font-size="14">Duplicate and anomaly flags</text><path d="M1210 320 V365 H1380 V420" stroke="#547b9d" stroke-width="2" fill="none" opacity=".75"/><rect x="70" y="590" width="340" height="112" rx="16" fill="url(#card)" stroke="#34536f"/>
+<text x="92" y="632" fill="#f2f7ff" font-family="Arial" font-size="18" font-weight="700">SI Analyst</text>
+<text x="92" y="665" fill="#a9bed2" font-family="Arial" font-size="14">Offline evidence-aware research brief</text><path d="M1210 320 V365 H240 V420" stroke="#547b9d" stroke-width="2" fill="none" opacity=".75"/><rect x="450" y="590" width="340" height="112" rx="16" fill="url(#card)" stroke="#34536f"/>
+<text x="472" y="632" fill="#f2f7ff" font-family="Arial" font-size="18" font-weight="700">NASA Media & Resources</text>
+<text x="472" y="665" fill="#a9bed2" font-family="Arial" font-size="14">NASA links and media discovery</text><path d="M1210 320 V365 H620 V420" stroke="#547b9d" stroke-width="2" fill="none" opacity=".75"/><rect x="830" y="590" width="340" height="112" rx="16" fill="url(#card)" stroke="#34536f"/>
+<text x="852" y="632" fill="#f2f7ff" font-family="Arial" font-size="18" font-weight="700">Moon & Mars Safety</text>
+<text x="852" y="665" fill="#a9bed2" font-family="Arial" font-size="14">Mission atmosphere context and safety pillars</text><path d="M1210 320 V365 H1000 V420" stroke="#547b9d" stroke-width="2" fill="none" opacity=".75"/>
+<!-- Optional services -->
+<rect x="70" y="770" width="700" height="230" rx="18" fill="#172c43" stroke="#c18b4c" stroke-dasharray="9 7"/>
+<text x="105" y="815" fill="#f3c77f" font-family="Arial" font-size="18" font-weight="700">OPTIONAL HOSTED APPDEPLOY BACKEND</text>
+<text x="105" y="860" fill="#eaf2fb" font-family="Arial" font-size="17">POST /api/insights → AI-generated cautious research summary</text>
+<text x="105" y="895" fill="#b2c4d7" font-family="Arial" font-size="15">backend/index.ts · @appdeploy/sdk</text>
+<text x="105" y="930" fill="#b2c4d7" font-family="Arial" font-size="15">Realtime subscription helpers · backend/realtime*.ts</text>
+<text x="105" y="970" fill="#f3c77f" font-family="Arial" font-size="14">Not required by the local ZIP; local SI Analyst uses offline template logic.</text>
+<rect x="850" y="770" width="660" height="230" rx="18" fill="url(#card)" stroke="#3a5877"/>
+<text x="885" y="815" fill="#59d9d1" font-family="Arial" font-size="18" font-weight="700">USER OUTPUTS</text>
+<text x="885" y="860" fill="#eaf2fb" font-family="Arial" font-size="17">Explore · Compare · Review · Export filtered summaries</text>
+<text x="885" y="900" fill="#b2c4d7" font-family="Arial" font-size="15">Evidence-aware interpretation and follow-up checks</text>
+<text x="885" y="940" fill="#b2c4d7" font-family="Arial" font-size="15">External NASA sources for independent verification</text>
+<path d="M770 885 H840" stroke="#66cfd0" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="70" y="1060" fill="#8fa8c1" font-family="Arial" font-size="14">Solid arrows: local data/UI flow. Dashed backend connection: optional hosted integration; not part of the local offline execution path.</text>
+</svg>

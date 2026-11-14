@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Explore an investigation profile",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "investigation explorer",
+      "investigation selection",
+      "aggregate profile"
+    ],
+    "description": "Selecting a PSI investigation updates its aggregate profile.",
+    "steps": [
+      "Open Investigation explorer",
+      "Select PSI-69 FLEX",
+      "Review its row count, median index, oxygen range and fuel"
+    ],
+    "expected": "PSI-69 shows 274 rows, median supplied index 1.78 and oxygen range 12–34%."
+  },
+  {
+    "name": "Filter and export a summary",
+    "viewport": "desktop",
+    "covers": [
+      "category filter",
+      "fuel filter",
+      "CSV export"
+    ],
+    "description": "Filters narrow the catalogue and export the matching summary.",
+    "steps": [
+      "Open Investigation explorer",
+      "Choose Suppression & Extinguishment",
+      "Export the filtered summary"
+    ],
+    "expected": "The catalogue narrows to FLEX and FLEX-2 and downloads NASA_investigation_summary.csv."
+  },
+  {
+    "name": "Review data quality on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "data quality audit",
+      "anomaly visibility",
+      "responsive navigation"
+    ],
+    "description": "Data-quality warnings remain readable on a mobile viewport.",
+    "steps": [
+      "Open Data quality",
+      "Review oxygen and pressure validation cards",
+      "Inspect priority anomaly table"
+    ],
+    "expected": "Two oxygen values above 100% and 170 pressure values above 100 psi are displayed."
+  },
+  {
+    "name": "Generate an SI research brief",
+    "viewport": "desktop",
+    "covers": [
+      "SI analyst",
+      "evidence caveats",
+      "offline research brief"
+    ],
+    "description": "The SI page produces an evidence-grounded local research brief.",
+    "steps": [
+      "Open SI analyst",
+      "Generate SI research brief"
+    ],
+    "expected": "A brief appears and states the supplied index is undocumented and not a validated safety score."
+  }
+]
