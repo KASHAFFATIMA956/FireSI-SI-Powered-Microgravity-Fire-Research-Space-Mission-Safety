@@ -1,1 +1,0 @@
-Place the seven actual dashboard PNG screenshots here using the filenames listed in the root README.md.\n
