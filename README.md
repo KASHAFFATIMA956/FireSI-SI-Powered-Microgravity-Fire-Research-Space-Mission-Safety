@@ -141,7 +141,7 @@ FIRELINE-SI/
 ├── src/ (main.tsx, App.tsx, data.ts, index.css)
 ├── backend/ (index.ts, realtime.ts, realtime-subscribers.ts)
 ├── tests/tests.json
-└── docs/images/ (mission-overview.svg, investigation-explorer.svg, data-quality.svg)
+└── docs/ (images/ with mission-overview.svg, investigation-explorer.svg, data-quality.svg; architecture/system-architecture.svg; screenshots/ for genuine browser captures)
 ```
 
 ## Run locally
@@ -220,9 +220,20 @@ The repository currently includes **illustrative SVG previews**, not genuine scr
 
 ### Illustrative previews already included
 
-- [Mission Overview preview](docs/images/mission-overview.svg)
-- [Investigation Explorer preview](docs/images/investigation-explorer.svg)
-- [Data Quality preview](docs/images/data-quality.svg)
+These SVG preview files are stored in this repository. The paths below are relative to the repository root.
+
+#### Mission Overview
+![Mission Overview preview](./docs/images/mission-overview.svg)
+
+#### Investigation Explorer
+![Investigation Explorer preview](./docs/images/investigation-explorer.svg)
+
+#### Data Quality
+![Data Quality preview](./docs/images/data-quality.svg)
+
+#### System Architecture
+![System Architecture](./docs/architecture/system-architecture.svg)
+
 
 ### Actual dashboard screenshots to add
 
