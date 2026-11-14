@@ -216,34 +216,36 @@ flowchart TD
 
 ## Screenshots and UI previews
 
-### Actual dashboard screenshot
+The following screenshots were captured from the running FIRELINE-SI dashboard. They show all seven dashboard modules; NASA Media & Resources is presented in two screenshots to include its full content.
 
-#### Mission Overview
-![FIRELINE-SI Mission Overview dashboard](./docs/screenshots/01-mission-overview.png)
+### 1. Mission Overview
+![FIRELINE-SI Mission Overview](./docs/screenshots/01-mission-overview.png)
 
-### Illustrative visual previews
+### 2. Investigation Explorer
+![FIRELINE-SI Investigation Explorer](./docs/screenshots/02-investigation-explorer.png)
 
-The following SVGs are illustrative design previews, not browser screenshots captured from the running application.
+### 3. Risk Intelligence
+![FIRELINE-SI Risk Intelligence](./docs/screenshots/03-risk-intelligence.png)
 
-#### Investigation Explorer
-![Investigation Explorer preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/investigation-explorer.svg)
+### 4. Data Quality
+![FIRELINE-SI Data Quality](./docs/screenshots/04-data-quality.png)
 
-#### Data Quality
-![Data Quality preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/data-quality.svg)
+### 5. SI Analyst
+![FIRELINE-SI SI Analyst](./docs/screenshots/05-si-analyst.png)
 
-#### System Architecture
-![System Architecture](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/system-architecture.svg)
+### 6. NASA Media & Resources
 
-### Remaining dashboard screenshots
+**Part 1 — NASA media and research resource cards**
 
-The Mission Overview screenshot is now included. The following actual dashboard screenshots can be added as they are captured:
+![FIRELINE-SI NASA Media and Resources — Part 1](./docs/screenshots/06-nasa-media-resources-01.png)
 
-- `docs/screenshots/02-investigation-explorer.png`
-- `docs/screenshots/03-risk-intelligence.png`
-- `docs/screenshots/04-data-quality.png`
-- `docs/screenshots/05-si-analyst.png`
-- `docs/screenshots/06-nasa-media-resources.png`
-- `docs/screenshots/07-moon-mars-safety.png`
+**Part 2 — Featured research video and official links**
+
+![FIRELINE-SI NASA Media and Resources — Part 2](./docs/screenshots/06-nasa-media-resources-02.png)
+
+### 7. Moon & Mars Safety
+![FIRELINE-SI Moon and Mars Safety](./docs/screenshots/07-moon-mars-safety.png)
+
 
 ## Resources and references
 - [NASA Space Apps Challenge — Flame in Freefall](https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/)
