@@ -216,12 +216,14 @@ flowchart TD
 
 ## Screenshots and UI previews
 
-The repository includes four **illustrative SVG previews** to explain the dashboard layout and system design. These are design illustrations, not screenshots captured from the running application.
-
-### Available visual previews
+### Actual dashboard screenshot
 
 #### Mission Overview
-![Mission Overview preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/mission-overview.svg)
+![FIRELINE-SI Mission Overview dashboard](./docs/screenshots/01-mission-overview.png)
+
+### Illustrative visual previews
+
+The following SVGs are illustrative design previews, not browser screenshots captured from the running application.
 
 #### Investigation Explorer
 ![Investigation Explorer preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/investigation-explorer.svg)
@@ -232,9 +234,16 @@ The repository includes four **illustrative SVG previews** to explain the dashbo
 #### System Architecture
 ![System Architecture](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/system-architecture.svg)
 
-### Actual application screenshots
+### Remaining dashboard screenshots
 
-Actual browser screenshots of all seven dashboard views have not yet been added to this repository. The images above must not be mistaken for real application screenshots. Genuine screenshots should be captured from the running dashboard and uploaded to `docs/screenshots/` before adding them here.
+The Mission Overview screenshot is now included. The following actual dashboard screenshots can be added as they are captured:
+
+- `docs/screenshots/02-investigation-explorer.png`
+- `docs/screenshots/03-risk-intelligence.png`
+- `docs/screenshots/04-data-quality.png`
+- `docs/screenshots/05-si-analyst.png`
+- `docs/screenshots/06-nasa-media-resources.png`
+- `docs/screenshots/07-moon-mars-safety.png`
 
 ## Resources and references
 - [NASA Space Apps Challenge — Flame in Freefall](https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/)
