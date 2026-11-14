@@ -183,7 +183,7 @@ npm run preview
 
 The diagram below distinguishes the local application path from optional hosted AppDeploy backend capabilities. The local ZIP runs as a Vite-served React application and reads the prepared aggregate snapshot in `src/data.ts`. The backend folder contains AppDeploy-specific examples; the local dashboard does not require those services.
 
-![FIRELINE SI system architecture](./docs/images/system-architecture.svg)
+![FIRELINE SI system architecture](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/system-architecture.svg)
 
 ### Architecture layers
 
@@ -223,16 +223,16 @@ The repository currently includes **illustrative SVG previews**, not genuine scr
 These SVG preview files are stored in this repository. The paths below are relative to the repository root.
 
 #### Mission Overview
-![Mission Overview preview](./docs/images/mission-overview.svg)
+![Mission Overview preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/mission-overview.svg)
 
 #### Investigation Explorer
-![Investigation Explorer preview](./docs/images/investigation-explorer.svg)
+![Investigation Explorer preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/investigation-explorer.svg)
 
 #### Data Quality
-![Data Quality preview](./docs/images/data-quality.svg)
+![Data Quality preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/data-quality.svg)
 
 #### System Architecture
-![System Architecture](./docs/architecture/system-architecture.svg)
+![System Architecture](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/system-architecture.svg)
 
 
 ### Actual dashboard screenshots to add
