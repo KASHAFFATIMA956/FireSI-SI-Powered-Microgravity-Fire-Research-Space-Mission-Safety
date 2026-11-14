@@ -216,11 +216,9 @@ flowchart TD
 
 ## Screenshots and UI previews
 
-The repository currently includes **illustrative SVG previews**, not genuine screenshots captured from a running browser. They are useful as visual placeholders, but should not be represented as actual product screenshots.
+The repository includes four **illustrative SVG previews** to explain the dashboard layout and system design. These are design illustrations, not screenshots captured from the running application.
 
-### Illustrative previews already included
-
-These SVG preview files are stored in this repository. The paths below are relative to the repository root.
+### Available visual previews
 
 #### Mission Overview
 ![Mission Overview preview](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/mission-overview.svg)
@@ -234,28 +232,9 @@ These SVG preview files are stored in this repository. The paths below are relat
 #### System Architecture
 ![System Architecture](https://raw.githubusercontent.com/KASHAFFATIMA956/FireSI-SI-Powered-Microgravity-Fire-Research-Space-Mission-Safety/main/docs/images/system-architecture.svg)
 
+### Actual application screenshots
 
-### Actual dashboard screenshots to add
-
-Capture each view from the running dashboard (`http://localhost:5173/`) and save the PNG files using these exact paths. Then uncomment or add the matching Markdown image links below:
-
-| Screenshot | Save as |
-|---|---|
-| Mission Overview | `docs/screenshots/01-mission-overview.png` |
-| Investigation Explorer | `docs/screenshots/02-investigation-explorer.png` |
-| Risk Intelligence | `docs/screenshots/03-risk-intelligence.png` |
-| Data Quality | `docs/screenshots/04-data-quality.png` |
-| SI Analyst | `docs/screenshots/05-si-analyst.png` |
-| NASA Media & Resources | `docs/screenshots/06-nasa-media-resources.png` |
-| Moon & Mars Safety | `docs/screenshots/07-moon-mars-safety.png` |
-
-Example Markdown image syntax:
-
-```md
-![Mission Overview](docs/screenshots/01-mission-overview.png)
-```
-
-**Screenshot status:** Actual browser screenshots cannot be generated from the source archive alone; they must be captured from the live/local running UI. The `docs/screenshots/` folder is included as the destination for those captures.
+Actual browser screenshots of all seven dashboard views have not yet been added to this repository. The images above must not be mistaken for real application screenshots. Genuine screenshots should be captured from the running dashboard and uploaded to `docs/screenshots/` before adding them here.
 
 ## Resources and references
 - [NASA Space Apps Challenge — Flame in Freefall](https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/)
