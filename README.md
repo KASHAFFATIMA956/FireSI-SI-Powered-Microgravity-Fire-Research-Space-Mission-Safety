@@ -183,7 +183,7 @@ npm run preview
 
 The diagram below distinguishes the local application path from optional hosted AppDeploy backend capabilities. The local ZIP runs as a Vite-served React application and reads the prepared aggregate snapshot in `src/data.ts`. The backend folder contains AppDeploy-specific examples; the local dashboard does not require those services.
 
-![FIRELINE SI system architecture](./docs/architecture/system-architecture.svg)
+![FIRELINE SI system architecture](./docs/images/system-architecture.svg)
 
 ### Architecture layers
 
